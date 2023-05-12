@@ -18,10 +18,10 @@ function App() {
         <Navbar />
 
         <Routes>
-          <Route path='/frilancer/' element={<Home />} />
-          <Route path='/frilancer/projects' element={<Projects />} />
-          <Route path='/frilancer/project/:id' element={<Project />} />
-          <Route path='/frilancer/contacts' element={<Contacts />} />
+          <Route path='/frilancer/' exact element={<Home />} />
+          <Route path='/frilancer/projects' exact element={<Projects />} />
+          <Route path='/frilancer/project/:id' exact element={<Project />} />
+          <Route path='/frilancer/contacts' exact element={<Contacts />} />
 
 
         </Routes>

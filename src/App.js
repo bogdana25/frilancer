@@ -19,9 +19,9 @@ function App() {
 
         <Routes>
           <Route path='/frilancer/' element={<Home />} />
-          <Route path='/frilancer/projects' element={<Projects />} />
-          <Route path='/frilancer/project/:id' element={<Project />} />
-          <Route path='/frilancer/contacts' element={<Contacts />} />
+          <Route path='/projects' element={<Projects />} />
+          <Route path='/project/:id' element={<Project />} />
+          <Route path='/contacts' element={<Contacts />} />
 
 
         </Routes>
